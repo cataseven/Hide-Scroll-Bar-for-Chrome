@@ -1,4 +1,11 @@
 body {
-    overflow: hidden; /* Hides the scrollbar */
-  }
-  
+  overflow: hidden; /* Hide the scrollbar */
+}
+
+body::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for webkit browsers */
+}
+
+body {
+  overflow-y: scroll; /* Enable vertical scrolling */
+}

@@ -1,7 +1,7 @@
 STEP 1 DOWNLOAD FILES
 - Download the files into a new folder
 - Edit manifast.json file
-    - add your Home Assistant URL to line 16  "http://YourHomeAssistantUrl.com/*"
+    - add your Home Assistant URL to line 16 like "http://YourHomeAssistantUrl.com/*"
       For example: "http://192.168.1.53:8123/*" or "https://mybighome.duckdns.com:8123/*"
 
 STEP 2 LOAD EXTENSION TO GOOGLE CHROME

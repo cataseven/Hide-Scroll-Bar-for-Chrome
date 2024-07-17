@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Hide Scrollbar",
+    "version": "1.0",
+    "description": "Hides scrollbar on a specific site.",
+    "permissions": [
+        "tabs",
+        "activeTab"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "http://your adress url/*"
+            ],
+            "css": [
+                "styles.css"
+            ]
+        }
+    ]
+}

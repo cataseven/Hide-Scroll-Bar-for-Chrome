@@ -6,7 +6,7 @@
 
 For example
 
-"http://www.asdasd.com/* " or "http://192.168.1.53:879/* " or "https://mybighome.duckdns.com:8123/*"
+http://www.asdasd.com/* or http://192.168.1.53:879/* or https://mybighome.duckdns.com:8123/*
 
 <br>
 
